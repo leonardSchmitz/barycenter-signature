@@ -47,7 +47,7 @@ SIAM Journal on Matrix Analysis and Applications, 2019. </br>
 ## Set up
 1. Clone the repository by running
    ```
-   git clone git@github.com:leonardSchmitz/barycenter.git
+   git clone git@github.com:leonardSchmitz/barycenter-signature.git
    ```
 2. Install [OSCAR](https://www.oscar-system.org)
 3. Open julia in the project folder via
