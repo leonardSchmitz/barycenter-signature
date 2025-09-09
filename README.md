@@ -1,4 +1,4 @@
-# barycenter-signatures
+# barycenter-signature
 
 This is the companion package to the article  "Learning barycenters from signature matrices" [[2]](#2) 
 in the computer algebra system [OSCAR](https://www.oscar-system.org). 
