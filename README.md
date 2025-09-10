@@ -18,8 +18,8 @@ Forum of Mathematics, Sigma, 2019.
 
 <a id="2">[2]</a>
 C. Amendola, L. Schmitz </br>
-[Learning barycenters from signature matrices](https:/) </br>
-arXiv:, 2025. 
+[Learning barycenters from signature matrices](https://arxiv.org/abs/2509.07815v1) </br>
+arXiv:2509.07815, 2025. 
 
 <a id="3">[3]</a>
 M. Clausel, J. Diehl, R. Mignot, L.Schmitz, N. Sugiura and K. Usevich </br>
@@ -29,7 +29,7 @@ SIAM Journal on Applied Algebra and Geometry, 2024. </br>
 
 <a id="4">[4]</a>
 M. Pfeffer, A. Seigal, and B. Sturmfels </br> 
-[Learning Paths from Signature Tensors](https://https://epubs.siam.org/doi/10.1137/18M1212331)</br>
+[Learning Paths from Signature Tensors](https://epubs.siam.org/doi/10.1137/18M1212331)</br>
 SIAM Journal on Matrix Analysis and Applications, 2019. </br>
 
 ## Contact
@@ -85,7 +85,7 @@ The folloing list helps the reader to find the relevant source file.
 | Example 4.6            | `tests/baryTests.jl`                 |
 | Proposition 4.8        | `tests/baryTests.jl`                 |
 | Remark 4.10            | `tests/bary2ndTruncTest`             |
-| Proposition 4.11       | `tests/bary2ndTruncTest`             |
+| Theorem 4.11           | `tests/bary2ndTruncTest`             |
 | Example 6.2            | `examples/example84.jl`              |
 | Example 6.4            | `examples/example64.jl`              |
 | Proposition 6.5        | `tests/linearTransforms.jl`          |
@@ -137,7 +137,7 @@ source code of this comparison in `tests/baryTests.jl`.
 2. In the special case of matrix truncation (`k=2`) we can use the command `bary_2nd_trunc` based 
 on the the polynomial factorization according to Remark 4.10 in [[2]](#2). We report already 
 remarable time improvings for `N=100` signatures `sX` of random paths. In `bary_2nd_trunc_closedform`
-we implement the complete expression according to Proposition 4.11. We provide the complete
+we implement the complete expression according to Theorem 4.11. We provide the complete
 source code of this comparison in `tests/bary2ndTruncTests.jl`.
 
 
